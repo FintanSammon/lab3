@@ -21,7 +21,8 @@ function App() {
   //// For this part I set up BrowserRouter for client-side routing
     <BrowserRouter>
     <div className="App">
-      
+ // Here I have a navbar so users can decide which page they would like to view.
+    // The pages are Home, Read and Create.
       
       <Navbar bg="primary" data-bs-theme="dark">
         <Container>
