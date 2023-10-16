@@ -1,6 +1,8 @@
-//For bookItem it displays 
+//This is a functional component named BookItem that displays book information.
 import Card from 'react-bootstrap/Card';
+
 function BookItem(props){
+// Receive book information via props and display it
 return(
     <div>
 
@@ -19,5 +21,5 @@ return(
     </div>
 );
 }
-
+//// Export the BookItem component to make it available for use in other parts of the app
 export default BookItem;
