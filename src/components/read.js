@@ -1,7 +1,9 @@
 import Books from "./books";
 
+//// This is a functional component named Read that displays a list of books using the Books component
 function Read(){
 
+//Here I defined a sample data array with book information
             const data = 
                 [
                     {
@@ -41,11 +43,13 @@ function Read(){
                 ];
     return(
         <div>
+//Here displays a greeting from the Read component
             <h2>Hello from my Read Component</h2>
+// Here is a render for the Books component and pass the sample book data to it
             <Books myBooks={data}></Books>
         </div>
     );
     
 }
-
+// Here I exported the Read component to make it available for use in other parts of the app
 export default Read;
