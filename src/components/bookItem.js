@@ -2,7 +2,7 @@
 import Card from 'react-bootstrap/Card';
 
 function BookItem(props){
-// Receive book information via props and display it
+// Here it receives book information via props and displays it
 return(
     <div>
 
@@ -21,5 +21,5 @@ return(
     </div>
 );
 }
-//// Export the BookItem component to make it available for use in other parts of the app
+//// Here I exported the BookItem component to make it available for use in other parts of the app
 export default BookItem;
