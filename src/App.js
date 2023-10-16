@@ -1,3 +1,5 @@
+// Here are the imports for the necessary styles and components which I implemented into my app.
+
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from './components/Header';
@@ -7,6 +9,8 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 
+//// Here I Imported React Router for routing
+
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Read from './components/read';
 import Create from './components/create';
@@ -14,6 +18,7 @@ import Books from './components/books';
 
 function App() {
   return (
+  //// For this part I set up BrowserRouter for client-side routing
     <BrowserRouter>
     <div className="App">
       
