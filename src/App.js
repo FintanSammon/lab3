@@ -35,7 +35,7 @@ function App() {
         </Container>
       </Navbar>
       
-      
+  // Here I defined route handling using React Router
   <Routes>
   <Route path='/' element={<Content></Content>}></Route>
   <Route path='/read' element={<Read></Read>}></Route>
@@ -51,5 +51,5 @@ function App() {
     </BrowserRouter>
   );
 }
-
+// Here is the export for the app
 export default App;
